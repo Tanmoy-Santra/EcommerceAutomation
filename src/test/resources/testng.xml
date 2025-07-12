@@ -4,6 +4,8 @@
         <classes>
             <class name="tests.LoginTest"/>
             <class name="tests.ProductFilterTest"/>
+            <class name="tests.AddToCartTest"/>
+            <class name="tests.LogoutTest"/>
         </classes>
     </test>
 </suite>

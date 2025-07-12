@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Ecommerce_Test_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest">invalidLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_Test_Suite" title="tests.AddToCartTest" class="method navigator-link" hash-for-method="testAddAndRemoveProduct">testAddAndRemoveProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecommerce_Test_Suite" title="tests.LogoutTest" class="method navigator-link" hash-for-method="testLogoutFunctionality">testLogoutFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -136,6 +146,21 @@
           <div class="suite-Ecommerce_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">tests.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutFunctionality">
+                  </a> <!-- testLogoutFunctionality -->
+                  <span class="method-name">testLogoutFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_Test_Suite-class-passed -->
+          <div class="suite-Ecommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">tests.ProductFilterTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -151,6 +176,21 @@
                   <a name="verifyProductSortingLowToHigh">
                   </a> <!-- verifyProductSortingLowToHigh -->
                   <span class="method-name">verifyProductSortingLowToHigh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ecommerce_Test_Suite-class-passed -->
+          <div class="suite-Ecommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddAndRemoveProduct">
+                  </a> <!-- testAddAndRemoveProduct -->
+                  <span class="method-name">testAddAndRemoveProduct</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,6 +231,8 @@
     &lt;classes&gt;
       &lt;class name=&quot;tests.LoginTest&quot;/&gt;
       &lt;class name=&quot;tests.ProductFilterTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;tests.LogoutTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login Tests --&gt;
 &lt;/suite&gt; &lt;!-- Ecommerce Test Suite --&gt;
@@ -204,7 +246,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Login Tests (2 classes)</span>
+                <span class="test-name">Login Tests (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -230,28 +272,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyProductSortingHighToLow')
-data.setCell(0, 2, 'tests.ProductFilterTest')
-data.setCell(0, 3, 531);
+data.setCell(0, 1, 'testLogoutFunctionality')
+data.setCell(0, 2, 'tests.LogoutTest')
+data.setCell(0, 3, 1133);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyProductSortingLowToHigh')
 data.setCell(1, 2, 'tests.ProductFilterTest')
-data.setCell(1, 3, 513);
+data.setCell(1, 3, 715);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validLoginTest')
-data.setCell(2, 2, 'tests.LoginTest')
-data.setCell(2, 3, 309);
+data.setCell(2, 1, 'verifyProductSortingHighToLow')
+data.setCell(2, 2, 'tests.ProductFilterTest')
+data.setCell(2, 3, 651);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'invalidLoginTest')
-data.setCell(3, 2, 'tests.LoginTest')
-data.setCell(3, 3, 244);
+data.setCell(3, 1, 'testAddAndRemoveProduct')
+data.setCell(3, 2, 'tests.AddToCartTest')
+data.setCell(3, 3, 582);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'invalidLoginTest')
+data.setCell(4, 2, 'tests.LoginTest')
+data.setCell(4, 3, 392);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validLoginTest')
+data.setCell(5, 2, 'tests.LoginTest')
+data.setCell(5, 3, 384);
 window.suiteTableData['Ecommerce_Test_Suite']= { tableData: data, tableDiv: 'times-div-Ecommerce_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Ecommerce_Test_Suite">
               </div> <!-- times-div-Ecommerce_Test_Suite -->
             </div> <!-- times-div -->
@@ -284,50 +334,80 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validLoginTest</span>
-                <span class="method-start">5121 ms</span>
+                <span class="method-start">4443 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5432 ms</span>
+                <span class="method-start">4831 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">5610 ms</span>
+                <span class="method-start">5004 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidLoginTest</span>
-                <span class="method-start">8328 ms</span>
+                <span class="method-start">7947 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8573 ms</span>
+                <span class="method-start">8341 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ProductFilterTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">8744 ms</span>
+                <span class="method-start">8505 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyProductSortingLowToHigh</span>
-                <span class="method-start">11399 ms</span>
+                <span class="method-start">11737 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11913 ms</span>
+                <span class="method-start">12455 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">12083 ms</span>
+                <span class="method-start">12642 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyProductSortingHighToLow</span>
-                <span class="method-start">14991 ms</span>
+                <span class="method-start">16065 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15523 ms</span>
+                <span class="method-start">16717 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">16886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddAndRemoveProduct</span>
+                <span class="method-start">19664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20249 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">20413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogoutFunctionality</span>
+                <span class="method-start">23535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24670 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
