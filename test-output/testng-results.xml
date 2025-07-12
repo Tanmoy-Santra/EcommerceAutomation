@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-12T22:05:50 IST" name="Ecommerce Test Suite" finished-at="2025-07-12T22:06:06 IST" duration-ms="15709">
+    <groups>
+    </groups>
+    <test started-at="2025-07-12T22:05:50 IST" name="Login Tests" finished-at="2025-07-12T22:06:06 IST" duration-ms="15709">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@747ddf94]" started-at="2025-07-12T22:05:50 IST" name="setUp" finished-at="2025-07-12T22:05:55 IST" duration-ms="5120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:1, instance:tests.LoginTest@747ddf94]" started-at="2025-07-12T22:05:55 IST" name="validLoginTest" finished-at="2025-07-12T22:05:56 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@747ddf94]" started-at="2025-07-12T22:05:56 IST" name="tearDown" finished-at="2025-07-12T22:05:56 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@747ddf94]" started-at="2025-07-12T22:05:56 IST" name="setUp" finished-at="2025-07-12T22:05:58 IST" duration-ms="2717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest()[pri:2, instance:tests.LoginTest@747ddf94]" started-at="2025-07-12T22:05:58 IST" name="invalidLoginTest" finished-at="2025-07-12T22:05:59 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@747ddf94]" started-at="2025-07-12T22:05:59 IST" name="tearDown" finished-at="2025-07-12T22:05:59 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ProductFilterTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ProductFilterTest@59474f18]" started-at="2025-07-12T22:05:59 IST" name="setUp" finished-at="2025-07-12T22:06:02 IST" duration-ms="2655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductSortingLowToHigh()[pri:1, instance:tests.ProductFilterTest@59474f18]" started-at="2025-07-12T22:06:02 IST" name="verifyProductSortingLowToHigh" finished-at="2025-07-12T22:06:02 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSortingLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductFilterTest@59474f18]" started-at="2025-07-12T22:06:02 IST" name="tearDown" finished-at="2025-07-12T22:06:02 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ProductFilterTest@59474f18]" started-at="2025-07-12T22:06:02 IST" name="setUp" finished-at="2025-07-12T22:06:05 IST" duration-ms="2908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductSortingHighToLow()[pri:2, instance:tests.ProductFilterTest@59474f18]" started-at="2025-07-12T22:06:05 IST" name="verifyProductSortingHighToLow" finished-at="2025-07-12T22:06:06 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSortingHighToLow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductFilterTest@59474f18]" started-at="2025-07-12T22:06:06 IST" name="tearDown" finished-at="2025-07-12T22:06:06 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductFilterTest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Ecommerce Test Suite -->
+</testng-results>
